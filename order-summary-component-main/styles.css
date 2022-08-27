@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: antiquewhite;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
 }
 
 .container {
@@ -14,4 +15,71 @@ body {
 
   background-color: #fff;
   width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.description {
+  color: hsl(224, 23%, 55%);
+  padding: 0px 50px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.pricing-section {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+
+.annual-plan-year {
+  justify-self: start;
+}
+
+.annual-plan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.year-cost {
+  color: hsl(224, 23%, 55%);
+  font-weight: ;
+}
+
+.change {
+  font-weight: 900;
+  font-size: 14px;
+  color: hsl(245, 75%, 52%);
+}
+
+.proceed:link,
+.proceed:visited {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 300px;
+  padding: 15px 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
