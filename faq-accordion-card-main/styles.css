@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #af67e9; */
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #af67e9,
+    #9f67e9,
+    #8d66e9,
+    #7a66e8,
+    #6565e7
+  );
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  background-color: #fff;
+  /* padding: 50px; */
+  border-radius: 20px;
+
+  width: 950px;
+
+  display: flex;
+}
+
+.image-section {
+  width: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-svg {
+  position: absolute;
+  left: -16%;
+  top: 15%;
+}
+
+.faq-section {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 65px 90px 40px;
+  margin-right: 25px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.info-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: hsl(237, 12%, 33%);
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info {
+  color: hsl(240, 6%, 50%);
+  font-size: 12px;
+}
+
+hr {
+  border-color: hsl(240, 5%, 91%);
+  /* margin: 20px 0px; */
+}
+
+.hidden-el {
+  display: none;
+}
