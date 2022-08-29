@@ -55,10 +55,6 @@ body {
   margin-right: 25px;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
-
 .info-section {
   display: flex;
   justify-content: space-between;
@@ -83,6 +79,23 @@ hr {
   /* margin: 20px 0px; */
 }
 
+/* buttons */
+
+.a:active,
+.a:visited {
+  color: hsl(240, 6%, 50%);
+}
+
+/* Javascript Class */
+
 .hidden-el {
   display: none;
+}
+
+.rotate-svg {
+  transform: rotate(180deg);
+}
+
+.title-bold {
+  font-weight: 700;
 }
