@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+}
+
+span {
+  color: black;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-bottom: 32px;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid hsl(223, 100%, 88%);
+  width: 425px;
+  height: 56px;
+}
+
+::placeholder {
+  color: hsl(223, 100%, 88%);
+  padding: 20px;
+}
+
+a {
+  width: 200px;
+  background-color: hsl(223, 87%, 63%);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 7px 15px 2px hsl(223, 87%, 63%, 0.3);
+}
+
+.image {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-height: 100%;
+  max-width: 100%;
+}
