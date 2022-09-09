@@ -43,6 +43,7 @@ h2 {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
 .email-input {
@@ -58,7 +59,8 @@ h2 {
   padding: 20px;
 }
 
-.btn {
+.btn:link,
+.btn:visited {
   width: 200px;
   background-color: #4f7df3;
   text-align: center;
@@ -67,6 +69,11 @@ h2 {
   color: #fff;
   border-radius: 30px;
   box-shadow: 0px 7px 15px 2px hsl(223, 87%, 63%, 0.3);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #8ba7ec;
 }
 
 .image {
@@ -78,4 +85,23 @@ h2 {
 
 .socials {
   display: flex;
+}
+.copyright {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(0, 0%, 59%);
+}
+
+.error-msg {
+  position: absolute;
+  color: hsl(354, 100%, 66%);
+  font-style: italic;
+  bottom: -20px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
 }
