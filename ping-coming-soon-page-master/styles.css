@@ -58,9 +58,9 @@ h2 {
   padding: 20px;
 }
 
-a {
+.btn {
   width: 200px;
-  background-color: hsl(223, 87%, 63%);
+  background-color: #4f7df3;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -74,4 +74,8 @@ a {
   margin-bottom: 48px;
   max-height: 100%;
   max-width: 100%;
+}
+
+.socials {
+  display: flex;
 }
